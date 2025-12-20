@@ -2,7 +2,7 @@ package com.practice.leetcode;
 
 public class ArithmeticSlices {
 	
-	   public int numberOfArithmeticSlices(int[] nums) {
+	   public static int numberOfArithmeticSlices(int[] nums) {
 	        
 	        int res=0;
 	        int dp=0;
@@ -22,6 +22,8 @@ public class ArithmeticSlices {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int ans = numberOfArithmeticSlices(new int[]{1, 2, 3, 4, 5});
+
 
 	}
 
