@@ -1,5 +1,8 @@
 package com.leetcode.array;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class NRepeatedElementinSize2NArray {
 	
 	  public int repeatedNTimes(int[] nums) {
